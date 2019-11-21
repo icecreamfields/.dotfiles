@@ -1,0 +1,23 @@
+alias inst='sudo apt install -y'
+
+alias gl='git pull'
+alias gst='git status'
+alias gco='git checkout'
+
+alias gw='./gradlew'
+alias gwb='./gradlew clean build'
+alias gwd='./gradlew clean docker'
+alias gwj='./gradlew clean jar'
+alias gwref='./gradlew clean build --refresh-dependencies'
+
+alias dim='docker images'
+alias dpush='docker push'
+
+alias dps='docker-compose ps'
+alias dup='docker-compose up -d'
+alias dlog='docker-compose logs -f'
+alias dstop='docker-compose stop'
+alias dpull='docker-compose pull'
+alias dres='docker-compose restart'
+
+alias dreb='./gradlew clean docker && docker-compose up -d && docker-compose logs -f'
