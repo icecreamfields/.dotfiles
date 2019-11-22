@@ -1,3 +1,9 @@
+alias cdot='cd ~/.dotfiles'
+
+alias ebrc='subl ~/.bashrc'
+alias ezrc='subl ~/.zshrc'
+alias eal='subl ~/.dotfiles/aliases'
+
 alias inst='sudo apt install -y'
 
 alias gl='git pull'
